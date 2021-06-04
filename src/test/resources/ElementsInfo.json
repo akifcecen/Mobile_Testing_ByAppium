@@ -1,0 +1,88 @@
+[
+  {
+    "key": "allow_btn",
+    "value": "com.android.packageinstaller:id/permission_allow_button",
+    "type": "id"
+  },
+  {
+    "key": "accept_privacy_policy",
+    "value": "com.turkishairlines.mobile:id/frPrivacy_btnAccept",
+    "type": "id"
+  },
+  {
+    "key": "book_a_flight_button",
+    "value": "com.turkishairlines.mobile:id/acMain_btnBooking",
+    "type": "id"
+  },
+  {
+    "key": "one_way_button",
+    "value": "com.turkishairlines.mobile:id/frDashboard_tvOneWay",
+    "type": "id"
+  },
+
+  {
+    "key": "search_area",
+    "value": "com.turkishairlines.mobile:id/frAirportSelection_etSearch",
+    "type": "id"
+  },
+  {
+    "key": "saw_button",
+    "value": "//*[@text='SAW - Sabiha Gokcen Airport']",
+    "type": "xpath"
+  },
+  {
+    "key": "to_destination_button",
+    "value": "com.turkishairlines.mobile:id/frDashboard_tvToCode",
+    "type": "id"
+  },
+  {
+    "key": "esb_button",
+    "value": "//*[@text='ESB - Ankara Esenboga Airport']",
+    "type": "xpath"
+  },
+  {
+    "key": "current_date_text_button",
+    "value": "com.turkishairlines.mobile:id/dateWidget_tvDateDay",
+    "type": "id"
+  },
+  {
+    "key": "two_days_after_current_date_date_widged",
+    "value": "//*[@text=\" + departureDate + \"]",
+    "type": "xpath"
+  },
+  {
+    "key": "booking_done_button",
+    "value": "com.turkishairlines.mobile:id/frDashboard_btnDone",
+    "type": "id"
+  },
+  {
+    "key": "passenger_increase_button",
+    "value": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.LinearLayout/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.FrameLayout[7]/android.widget.TextView",
+    "type": "xpath"
+  },
+  {
+    "key": "search_flight_button",
+    "value": "com.turkishairlines.mobile:id/frDashboard_btnSearch",
+    "type": "id"
+  },
+  {
+    "key": "search_flight_list",
+    "value": "com.turkishairlines.mobile:id/frFlightSearch_rvFlight",
+    "type": "id"
+  },
+  {
+    "key": "select_random_flight_button",
+    "value": "com.turkishairlines.mobile:id/itemFlightSearchParent_clPrice",
+    "type": "id"
+  },
+  {
+    "key": "eco_class_button",
+    "value": "//android.widget.TextView[contains(@text, 'EcoFly')]",
+    "type": "xpath"
+  },
+  {
+    "key": "continue_button",
+    "value": "com.turkishairlines.mobile:id/frFlightSearch_btnContinue",
+    "type": "id"
+  }
+]
