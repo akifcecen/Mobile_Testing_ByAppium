@@ -1,0 +1,59 @@
+Created by Muhammed Akif ÇEÇEN on 6/3/2021
+
+This is a concept file with following syntax for each concept.
+# Konum izni verilir
+* Wait "4" seconds
+* "allow_btn" ID li elemente tıkla
+
+# Cookieslere izin verilir
+* Wait "4" seconds
+* "accept_privacy_policy" ID li elemente tıkla
+
+# Bilet al butonuna tıklanır
+* Wait "2" seconds
+* "book_a_flight_button" ID li elemente tıkla
+
+# Tek yön uçuş seçilir
+* Wait "2" seconds
+* "one_way_button" ID li elemente tıkla
+
+# From SAW ayarlanır ve seçilir
+* Wait "2" seconds
+* "from_destination_button" ID li elemente tıkla
+* Wait "2" seconds
+* "search_area" elementine "SAW" degerini gir
+* Wait "2" seconds
+* "saw_button" Xpath li elemente tıkla
+
+# To ESB ayarlanır ve seçilir
+* "to_destination_button" ID li elemente tıkla
+* Wait "2" seconds
+* "search_area" elementine "ESB" degerini gir
+* Wait "2" seconds
+* "esb_button" Xpath li elemente tıkla
+
+# Tarih bilgisi günün tarihinden 2 gün sonraya seçilir
+* Wait "2" seconds
+* Set departure date from "current_date_text_button"
+* Wait "2" seconds
+* "booking_done_button" ID li elemente tıkla
+
+# Yetişkin sayısı 1 arttırılır
+* Wait "2" seconds
+* "passenger_increase_button" Xpath li elemente tıkla
+
+# Uçuş ara butonuna tıklanır
+* Wait "2" seconds
+* "search_flight_button" ID li elemente tıkla
+
+# Uçuş seçilir
+* Wait "2" seconds
+* Select random flight on the screen with "select_random_flight_button"
+
+# Ekonomik uçuş seçilir
+* Wait "2" seconds
+* "eco_class_button" Xpath li elemente tıkla
+
+# Devam butonuna tıklanır
+* Wait "2" seconds
+* "continue_button" ID li elemente tıkla
