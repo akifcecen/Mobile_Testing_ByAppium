@@ -2,12 +2,12 @@ Created by Muhammed Akif ÇEÇEN on 6/3/2021
 
 This is a concept file with following syntax for each concept.
 # Konum izni verilir
-* Wait "4" seconds
 * "allow_btn" ID li elemente tıkla
+* Wait "2" seconds
 
 # Cookieslere izin verilir
-* Wait "4" seconds
 * "accept_privacy_policy" ID li elemente tıkla
+* Wait "2" seconds
 
 # Bilet al butonuna tıklanır
 * Wait "2" seconds
