@@ -35,6 +35,11 @@
     "value": "com.turkishairlines.mobile:id/frDashboard_tvToCode",
     "type": "id"
   },
+   {
+    "key": "from_destination_button",
+    "value": "com.turkishairlines.mobile:id/frDashboard_tvFromCode",
+    "type": "id"
+  },
   {
     "key": "esb_button",
     "value": "//*[@text='ESB - Ankara Esenboga Airport']",
