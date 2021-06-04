@@ -53,14 +53,14 @@ public class HookImplements {
 
 
     }
-    @AfterScenario
+   /** @AfterScenario
     public  void afterScenario(){
         if(driver !=null){
 
             driver.quit();
 
         }
-}
+}**/
 
 
 }
